@@ -1,15 +1,39 @@
 {
   "name": "fussion-finance",
   "version": "1.0.0",
-  "description": "",
+  "description": "A full suite data application for liquidity providers on Osmosis Zone ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "github.com/jhuhnke/fussion-finance"
+  },
+  "keywords": [
+    "osmosis",
+    "crypto",
+    "liquidity",
+    "lp",
+    "osmo",
+    "pools"
+  ],
+  "author": "web3-analyst",
   "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "@types/node": "^18.15.11"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
   }
 }
