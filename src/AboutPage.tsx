@@ -1,14 +1,11 @@
-import React from 'react'; 
-import './AboutPage.css'; 
+import React from 'react';
 
 const AboutPage: React.FC = () => {
-    return (
-        <div className="about-page">
-            <h1>About Us</h1>
-            <p>The leading Osmosis Zone analytics tooling application</p>
-            <button>soon tm</button>
-        </div>
-    ); 
-}; 
+  return (
+    <div>
+      <h1>About Page</h1>
+    </div>
+  );
+};
 
 export default AboutPage;
