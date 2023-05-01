@@ -4,17 +4,21 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f9f9f9;
+    background-color: #080424;
   }
   
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    color: #9198e5; /*linear-gradient(#e66465, #9198e5); */
   }
   
   button {

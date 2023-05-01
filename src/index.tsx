@@ -1,10 +1,13 @@
 import React from 'react'; 
+import Header from './Header';
 import LandingPage from './LandingPage'; 
+import AboutPage from './AboutPage'; 
 import ReactDOM from 'react-dom'; 
 
-const App = () => {
+const App: React.FC = () => {
     return (
         <div>
+            <Header />
             <LandingPage />
         </div>
     )
