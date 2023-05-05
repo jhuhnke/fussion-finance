@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Fussion Finance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application aims to be an all-in-one stop for Osmosis Zone data tooling. Level up your swaps & liquidity positions with Fussion Finance! 
+
+Other chains and DEXes!? :eyes:
+
+Maybe soon tm. 
 
 ## Available Scripts
 
